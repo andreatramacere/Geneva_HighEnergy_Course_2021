@@ -13,12 +13,12 @@ ADD requirements_docker.txt /requirements_docker.txt
 #PIPI
 RUN pip install -r requirements_docker.txt
 RUN apt-get update -y
-RUN apt-get install -y swig
+#RUN apt-get install -y swig
 RUN apt-get install -y git
 RUN apt-get install -y gcc
 RUN apt-get install -y wget
 RUN wget https://github.com/andreatramacere/jetset/releases/download/1.2.0rc6/pip-binary-1.2.0rc6-ubuntu-latest-py-3.8.tar
-RUN tar pip-binary-1.2.0rc6-ubuntu-latest-py-3.8.tar
+RUN tar xfv pip-binary-1.2.0rc6-ubuntu-latest-py-3.8.tar
 RUN pip install pip-binary-1.2.0rc6-ubuntu-latest-py-3.8/jetset-*.whl
 WORKDIR /
 # create user with a home directory
