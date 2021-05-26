@@ -17,7 +17,7 @@ RUN apt-get install -y swig
 RUN apt-get install -y git
 RUN apt-get install -y gcc
 RUN apt-get install -y wget
-RUN wget   wget  https://github.com/andreatramacere/jetset/releases/download/1.2.0rc6/pip-src-1.2.0rc6-ubuntu-latest.tar
+RUN wget https://github.com/andreatramacere/jetset/releases/download/1.2.0rc6/pip-src-1.2.0rc6-ubuntu-latest.tar
 RUN tar xfv pip-src-1.2.0rc6-ubuntu-latest.tar
 WORKDIR pip-src-1.2.0rc6-ubuntu-latest
 RUN tar zxfv jetset-1.2.0rc6.tar.gz
