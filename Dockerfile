@@ -15,7 +15,7 @@ RUN pip install -r requirements_docker.txt
 RUN apt-get update -y
 #RUN apt-get install -y swig
 RUN apt-get install -y git
-RUN apt-get install -y gcc
+#RUN apt-get install -y gcc
 RUN apt-get install -y wget
 RUN wget https://github.com/andreatramacere/jetset/releases/download/1.2.0rc6/pip-binary-1.2.0rc6-ubuntu-latest-py-3.8.tar
 RUN tar xfv pip-binary-1.2.0rc6-ubuntu-latest-py-3.8.tar
@@ -30,7 +30,7 @@ ENV HOME /home/${NB_USER}
 
 ADD *.ipynb $HOME/notebooks/
 ADD images $HOME/notebooks/images
-ADD images $HOME/notebooks/jetset_slides
+ADD jetset_slides $HOME/notebooks/jetset_slides
 
 RUN adduser --disabled-password \
     --gecos "Default user" \
