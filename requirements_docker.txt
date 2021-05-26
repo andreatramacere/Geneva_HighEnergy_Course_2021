@@ -15,4 +15,3 @@ tqdm
 numba
 pytest
 dill
-sherpa
