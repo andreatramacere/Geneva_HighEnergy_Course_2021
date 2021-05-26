@@ -1,3 +1,5 @@
 *.pkl
 .ipynb_checkpoints
 .vscode
+jet_wd
+test_SED.txt
