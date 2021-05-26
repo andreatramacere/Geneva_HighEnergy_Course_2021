@@ -10,11 +10,6 @@ USER root
 
 ADD requirements_docker.txt /requirements_docker.txt
 
-#ANACONDA
-#RUN conda create -n jetset-env python=3.7 ipython notebook
-#RUN conda install --yes -c astropy --file requirements_docker.txt
-RUN conda install -c sherpa sherpa
-
 #PIPI
 RUN pip install -r requirements_docker.txt
 RUN apt-get update -y
