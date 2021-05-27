@@ -13,6 +13,8 @@ OR if you don't have git installed on your machine
 
 you can run all the notebooks on a remote server just press the link below (**no need to download notebooks in this case, no need to install the code**)
 
+The slides are in this git repo here: https://github.com/andreatramacere/Geneva_HighEnergy_Course_2021/blob/main/Geneva_HighEnergy_Course_2021_slides.pdf
+
 run the notebooks [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreatramacere/Geneva_HighEnergy_Course_2021/HEAD)
 
 
