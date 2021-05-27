@@ -34,7 +34,7 @@ will work with the version that we are using for the course, so you can use that
 
 **to avoid conflict in dependencies use python version in this range [3.7,3.8,3.9]**
 
-The release is hosted here: <https://github.com/andreatramacere/jetset/releases/tag/1.2.0rc6>
+The release is hosted here: <https://github.com/andreatramacere/jetset/releases/tag/1.2.0rc7>
 
 - To install from binaries, follow: <https://github.com/andreatramacere/jetset/wiki/install-release-from-binaries>
 - To install from sources, follow: <https://github.com/andreatramacere/jetset/wiki/install-release-from-source>
