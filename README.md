@@ -27,7 +27,7 @@ If you are interested in installing the code, please read the following.
 
 The jetset documentation (previous version: 1.1.2) is here: https://jetset.readthedocs.io/en/1.1.2/index.html
 
-**but we will youse the new one (pre release 1.2.0rc6)**
+**but we will youse the new one (pre release 1.2.0rc7)**
 
 Almost everything in: https://jetset.readthedocs.io/en/1.1.2/user_guide/user_guide.html
 will work with the version that we are using for the course, so you can use that documentation to get a feeling with the code
