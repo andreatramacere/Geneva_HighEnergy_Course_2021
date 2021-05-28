@@ -1,4 +1,4 @@
-# Wuerzburg JetSeT Hands-on Session
+# Geneva JetSeT Hands-on Session
 
 ## git repo with notebooks 
 
